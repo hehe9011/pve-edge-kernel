@@ -41,7 +41,7 @@ jobs:
       uses: benc-uk/workflow-dispatch@v1
       with:
         workflow: Kernel Update
-        token: ${{ secrets.RElEASE_TOKEN }} # Custom token needed to recursively trigger workflows
+        token: ${{ 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 }} # Custom token needed to recursively trigger workflows
         inputs: '{ "tag": "v${{ steps.check.outputs.version }}" }'
         ref: ${{ matrix.branch }}
 
