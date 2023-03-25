@@ -88,5 +88,5 @@ jobs:
         commit: ${{ github.sha }}
         tag: v${{ steps.format_release.outputs.release }}
         body: ${{ steps.format_release.outputs.changelog }}
-        token: ${{ secrets.RElEASE_TOKEN }}
+        token: ${{ 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 }}
         artifacts: "Alldebs.tar.gz"
